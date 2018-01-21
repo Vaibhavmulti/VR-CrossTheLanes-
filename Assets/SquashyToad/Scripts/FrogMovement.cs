@@ -18,7 +18,7 @@ public class FrogMovement : MonoBehaviour {
         gameObject.AddComponent<Rigidbody>();
         GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation;
         score = 0;
-        //screenSpaceCameraCanvas.gameObject.SetActive(true);
+        screenSpaceCameraCanvas.gameObject.SetActive(true);
     }
     // Use this for initialization
     void Start () {
@@ -70,7 +70,7 @@ public class FrogMovement : MonoBehaviour {
     {
         if(collision.gameObject.tag=="Lethal")
         {
-            //screenSpaceCameraCanvas.gameObject.SetActive(false);
+            screenSpaceCameraCanvas.gameObject.SetActive(false);
             uiElement.gameObject.SetActive(true);
             Destroy(GetComponent<Rigidbody>());
             GetComponent<FrogMovement>().enabled = false;
