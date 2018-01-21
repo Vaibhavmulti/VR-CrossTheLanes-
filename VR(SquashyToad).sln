@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VR(SquashyToad)", "VR(SquashyToad).csproj", "{1FCD9363-94E1-A757-B6B6-1D5D96487C4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VR(SquashyToad).Editor", "VR(SquashyToad).Editor.csproj", "{8427E6C6-A7D2-90AF-7EB1-724291B1EAA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FCD9363-94E1-A757-B6B6-1D5D96487C4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FCD9363-94E1-A757-B6B6-1D5D96487C4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FCD9363-94E1-A757-B6B6-1D5D96487C4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FCD9363-94E1-A757-B6B6-1D5D96487C4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8427E6C6-A7D2-90AF-7EB1-724291B1EAA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8427E6C6-A7D2-90AF-7EB1-724291B1EAA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8427E6C6-A7D2-90AF-7EB1-724291B1EAA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8427E6C6-A7D2-90AF-7EB1-724291B1EAA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
